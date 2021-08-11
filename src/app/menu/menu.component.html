@@ -1,0 +1,15 @@
+<div class="container"
+fxLayout="column"
+fxLayoutGap="10px">
+
+<mat-list fxFlex>
+    <mat-list-item *ngFor="let dis of dishes">
+        <img matListAvatar src= {{dis.image}} alt={{dis.name}}>
+        <h1 matLine> {{dis.name}} </h1>
+        <p matLine>
+            <span> {{dis.description}} </span>
+        </p>
+    </mat-list-item>
+</mat-list>
+
+</div>
