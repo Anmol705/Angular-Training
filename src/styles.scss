@@ -13,3 +13,7 @@ body{
     margin: 20px;
     display: flex; 
 }
+
+.mat-list .mat-list-item {
+    height: 10px; /* default is 72px */
+  }
